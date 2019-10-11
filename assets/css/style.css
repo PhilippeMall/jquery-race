@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../images/bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+.character {
+	position: absolute;
+	width: 100px;
+}
+
+.btn {
+	text-align: center;
+	margin-top: 20px;
+	box-shadow: 3px 2px #888888;
+}
+
+#ai {
+	top: 100px;
+}
+
+#player {
+	top: 550px;
+}
+
+#truck {
+	height: 250px;
+}
+
+#plane {
+	height: 100px;
+}
+
+hr {
+	width: 100%;
+	border: 2px solid black;
+}
