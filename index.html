@@ -5,8 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title> Project Title </title>
-	
+	<title> Spartan Invasion </title>
+
+	<!-- Title icon -->
+	 <link rel="icon" href="assets/images/spartan-icon.png">
+
 	<!-- animate css -->
 	
 
@@ -32,18 +35,35 @@
 				<button class="btn btn-secondary" id="medium">Medium</button>
 				<button class="btn btn-secondary" id="hard">Hard</button>
 			</div>
+			<div class="col-lg-5 heading">
+				<h1>Reach the castle before the phalanx does! Click the leader to move!</h1>
+			</div>
 		</div>
 	</div>
 
 
-	<div class="character" id="player"><img src="assets/images/truck.png" id="truck"></div>
-	<div class="character" id="ai"><img src="assets/images/plane.png" id="plane"></div>
+	<div class="character" id="player"><img src="assets/images/spartan.gif" id="spartan"></div>
+	<div class="character" id="ai"><img src="assets/images/spartan.gif" id="spartan1" class="first-small-spartan"></div>
+	<div class="character" id="ai2"><img src="assets/images/spartan.gif" id="spartan1" class="second-small-spartan"></div>
+	<div class="character" id="ai3"><img src="assets/images/spartan.gif" id="spartan1" class="third-small-spartan"></div>
+	<div class="character" id="ai4"><img src="assets/images/spartan.gif" id="spartan1" class="fourth-small-spartan"></div>
 
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 note">
+				<h4>PC version only. Hard mode ai finishes not yet implemented.</h4>
+			</div>
+		</div>
+	</div>
 
-
-
-
-
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+	 			<button class="btn btn-secondary" id="restart"><a href="index.html">Restart</a></button>
+	 		</div>
+	 	</div>
+	 </div>
+	
 
 	<!-- jQuery cdn -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
