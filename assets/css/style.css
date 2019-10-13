@@ -39,12 +39,13 @@ a {
 
 .note {
 	position: absolute;
-	right: 370px;
+	/*right: 390px;*/
 	top: 5px;
 	background-color: grey;
 	border: 2px solid black;
 	height: 100px;
 	width: 200px;
+	left: 780px;
 }
 
 .character {

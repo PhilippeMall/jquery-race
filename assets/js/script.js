@@ -372,7 +372,7 @@ const aiMoveMed4 = () => {
 const aiMoveHard = () => {
 		if(ai.aiPos < 1000) {
 			ai.character.animate({
-			'left' : (aiPosition +=150) + 'px'
+			'left' : (aiPosition +=200) + 'px'
 		})
 	} else {
 		return true
@@ -381,14 +381,14 @@ const aiMoveHard = () => {
 	console.log(ai.aiPos)
 	ai.aiPos = aiPosition	
 	setTimeout(aiMoveHard, 1000) /*Makes the timeout*/
-	// result1()
+	result1()
 	
 }
 
 const aiMoveHard2 = () => {
 	if(ai2.aiPos < 1000) {
 		ai2.character.animate({
-			'left' : (aiPosition2 += 150) + 'px'
+			'left' : (aiPosition2 += 200) + 'px'
 		})
 	} else {
 		return true
@@ -397,13 +397,13 @@ const aiMoveHard2 = () => {
 	console.log(ai2.aiPos)
 	ai2.aiPos = aiPosition
 	setTimeout(aiMoveHard2, 1000) /*Makes the timeout*/
-	// result1()
+	result1()
 }
 
 const aiMoveHard3 = () => {
 	if(ai3.aiPos < 1000) {
 		ai3.character.animate({
-			'left' : (aiPosition3 += 150) + 'px'
+			'left' : (aiPosition3 += 200) + 'px'
 		})
 	} else {
 		return true
@@ -412,13 +412,13 @@ const aiMoveHard3 = () => {
 	console.log(ai3.aiPos)
 	ai3.aiPos = aiPosition
 	setTimeout(aiMoveHard3, 1000) /*Makes the timeout*/
-	// result1()
+	result1()
 }
 
 const aiMoveHard4 = () => {
 	if(ai4.aiPos < 1000) {
 		ai4.character.animate({
-			'left' : (aiPosition4 += 150) + 'px'
+			'left' : (aiPosition4 += 200) + 'px'
 		})
 	} else {
 		return true
@@ -427,7 +427,7 @@ const aiMoveHard4 = () => {
 	console.log(ai4.aiPos)
 	ai4.aiPos = aiPosition
 	setTimeout(aiMoveHard4, 1000) /*Makes the timeout*/
-	// result1()
+	result1()
 }
 // end of hard
 
